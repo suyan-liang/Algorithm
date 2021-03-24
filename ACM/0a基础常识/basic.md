@@ -1,0 +1,1 @@
+- 使用`getline(cin,str)`来获取带空格的字符串，而后再使用`str.substr(0,str.find(' '))`去截取第一段，使用`str.substr(str.find(' ')+1,str.size())`获取第二段
